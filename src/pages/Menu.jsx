@@ -23,31 +23,31 @@ function Menu() {
           <h2 className="text-3xl font-bold mb-10 text-white">
             Explore Our Categories
           </h2>
-          <div className="flex justify-center gap-4 lg:gap-10 flex-wrap pb-6">
+          <div className="flex justify-center gap-2 lg:gap-10 flex-wrap pb-6">
             <button
               onClick={() => setCategory("All")}
-              className="h-auto w-auto px-6 py-4 lg:px-10 lg:py-4 bg-gray-200 text-black hover:bg-orange-500 hover:text-white rounded-2xl"
+              className="h-auto w-auto px-5 py-3 lg:px-10 lg:py-4 bg-gray-200 text-black hover:bg-orange-500 hover:text-white rounded-2xl"
             >
               {" "}
               All{" "}
             </button>
             <button
               onClick={() => setCategory("Fast Food")}
-              className="h-auto w-auto px-4 py-4 lg:px-10 lg:py-4 bg-gray-200 rounded-2xl hover:bg-orange-500 hover:text-white transition"
+              className="h-auto w-auto px-3 py-3 lg:px-10 lg:py-4 bg-gray-200 rounded-2xl hover:bg-orange-500 hover:text-white transition"
             >
               {" "}
               Fast Food{" "}
             </button>
             <button
               onClick={() => setCategory("Desi")}
-              className="h-auto w-auto px-4 py-4 lg:px-10 lg:py-4 bg-gray-200 rounded-2xl hover:bg-orange-500 hover:text-white transition"
+              className="h-auto w-auto px-3 py-3 lg:px-10 lg:py-4 bg-gray-200 rounded-2xl hover:bg-orange-500 hover:text-white transition"
             >
               {" "}
               Desi{" "}
             </button>
             <button
               onClick={() => setCategory("Drinks")}
-              className="h-auto w-auto px-4 py-4 lg:px-10 lg:py-4 bg-gray-200 rounded-2xl hover:bg-orange-500 hover:text-white transition"
+              className="h-auto w-auto px-3 py-3 lg:px-10 lg:py-4 bg-gray-200 rounded-2xl hover:bg-orange-500 hover:text-white transition"
             >
               {" "}
               Drinks{" "}
