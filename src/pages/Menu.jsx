@@ -64,7 +64,7 @@ function Menu() {
                   />
                   <div className="p-5 bg-white">
                     <h3 className="text-xl font-semibold">Zinger Burger</h3>
-                    <p className="text-gray-400 my-2">
+                    <p className="text-gray-400 my-2 text-justify">
                       {" "}
                       Crunchy Zinger chicken fillet with fresh lettuce and our
                       special mayo sauce.{" "}
@@ -91,7 +91,7 @@ function Menu() {
                   />
                   <div className="p-5 bg-white">
                     <h3 className="text-xl font-semibold">Pizza</h3>
-                    <p className="text-gray-400 my-2">
+                    <p className="text-gray-400 my-2 text-justify">
                       {" "}
                       Delicious pizza with melted mozzarella, flavorful
                       toppings, and a crispy crust.{" "}
@@ -119,7 +119,7 @@ function Menu() {
                   />
                   <div className="p-5 bg-white">
                     <h3 className="text-xl font-semibold">Sandwitch</h3>
-                    <p className="text-gray-400 my-2">
+                    <p className="text-gray-400 my-2 text-justify">
                       {" "}
                       Toasted sandwich layered with fresh veggies and savory
                       ingredients for the perfect bite.{" "}
@@ -145,8 +145,8 @@ function Menu() {
                     className="h-56 w-full object-cover"
                   />
                   <div className="p-5 bg-white">
-                    <h3 className="text-xl font-semibold">Mutton Karahi</h3>
-                    <p className="text-gray-400 my-2">
+                    <h3 className="text-xl font-semibold text-justify">Mutton Karahi</h3>
+                    <p className="text-gray-400 my-2  text-justify">
                       {" "}
                       Slow-cooked mutton karahi prepared with rich spices and
                       freshly chopped herbs.{" "}
@@ -173,10 +173,10 @@ function Menu() {
                   />
                   <div className="p-5 bg-white">
                     <h3 className="text-xl font-semibold">Chicken Biryani</h3>
-                    <p className="text-gray-400 my-2">
+                    <p className="text-gray-400 my-2 text-justify">
                       {" "}
-                      Classic chicken biryani prepared with juicy chicken,
-                      premium rice, and rich traditional flavors.{" "}
+                      Classic chicken biryani prepared with chicken,
+                      rice, and rich traditional flavors.{" "}
                     </p>
                     <div className="flex justify-between items-center pt-2">
                       <span className="text-orange-500 font-bold text-lg">
@@ -200,7 +200,7 @@ function Menu() {
                   />
                   <div className="p-5 bg-white">
                     <h3 className="text-xl font-semibold">Haleem</h3>
-                    <p className="text-gray-400 my-2">
+                    <p className="text-gray-400 my-2 text-justify">
                       {" "}
                       Creamy haleem prepared with tender meat, lentils, and a
                       blend of authentic spices.{" "}
@@ -227,7 +227,7 @@ function Menu() {
                   />
                   <div className="p-5 bg-white">
                     <h3 className="text-xl font-semibold">Lemon Drink</h3>
-                    <p className="text-gray-400 my-2">
+                    <p className="text-gray-400 my-2 text-justify">
                       {" "}
                       A chilled and refreshing lemon drink perfect for any time
                       of the day.{" "}
@@ -254,7 +254,7 @@ function Menu() {
                   />
                   <div className="p-5 bg-white">
                     <h3 className="text-xl font-semibold">Milk Shak</h3>
-                    <p className="text-gray-400 my-2">
+                    <p className="text-gray-400 my-2 text-justify">
                       {" "}
                       Indulge in our thick and flavorful milkshake made with
                       premium ingredients.{" "}

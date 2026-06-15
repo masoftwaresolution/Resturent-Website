@@ -29,49 +29,45 @@ function Home() {
                     <div className="bg-[#F8F8F8] rounded-2xl shadow-lg overflow-hidden mb-12 hover:border-yellow-400 hover:border-2 hover:-translate-y-2 hover:shadow-2xl transition duration-300">
                         <div className="relative">
                             <img src="./images/chickenberyani.jpg" alt="Burger" className="w-full h-60 object-cover rounded-t-xl" />
-                            <span className="absolute top-3 right-3 bg-yellow-600 text-white text-sm px-3 py-1 rounded-full"> $12.99 </span>
+                            <span className="absolute top-3 right-3 bg-yellow-500 text-black font-semibold text-sm px-3 py-1 rounded-full"> $89.99 </span>
                         </div>
                         <div className="p-5">
-                            <h3 className="text-lg font-semibold text-gray-800"> Signature Burger </h3>
-                            <p className="text-sm text-gray-500 mt-2"> Juicy beef patty with special sauce, lettuce, tomato, and cheese. </p>
-                            <div className="flex items-center mt-3 text-yellow-400">  ★ ★ ★ ★ ★ </div>
-                            <button className="mt-4 w-full bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-2 rounded-lg transition"> Add to Cart </button>
+                            <h3 className="text-lg font-semibold text-gray-800"> Chicken Beryani </h3>
+                            <p className="text-sm text-gray-500 mt-2"> Fragrant basmati rice with tender chicken, aromatic spices, and rich flavors. </p>
+                            
                         </div>
                     </div>
                     <div className="bg-[#F8F8F8] rounded-2xl shadow-lg overflow-hidden mb-12 hover:border-yellow-400 hover:border-2 hover:-translate-y-2 hover:shadow-2xl transition duration-300">
                         <div className="relative">
                             <img src="./images/burgerm.jpg" alt="Burger" className="w-full h-60 object-cover rounded-t-xl" />
-                            <span className="absolute top-3 right-3 bg-yellow-500 text-white text-sm px-3 py-1 rounded-full"> $12.99 </span>
+                            <span className="absolute top-3 right-3 bg-yellow-500 text-black font-semibold text-sm px-3 py-1 rounded-full"> $59.99 </span>
                         </div>
                         <div className="p-5">
-                            <h3 className="text-lg font-semibold text-gray-800"> Signature Burger </h3>
-                            <p className="text-sm text-gray-500 mt-2"> Juicy beef patty with special sauce, lettuce, tomato, and cheese. </p>
-                            <div className="flex items-center mt-3 text-yellow-400"> ★ ★ ★ ★ ★ </div>
-                            <button className="mt-4 w-full bg-yellow-500 hover:bg-yellow-600 text-black py-2 font-semibold rounded-lg transition"> Add to Cart </button>
+                            <h3 className="text-lg font-semibold text-gray-800"> Zinger Burger </h3>
+                            <p className="text-sm text-gray-500 mt-2"> Juicy grilled patty with fresh lettuce, tomato, cheese, and signature sauce. </p>
+                            
                         </div>
                     </div>
                     <div className="bg-[#F8F8F8] rounded-2xl shadow-lg overflow-hidden mb-12 hover:border-yellow-400 hover:border-2 hover:-translate-y-2 hover:shadow-2xl transition duration-300">
                         <div className="relative">
                             <img src="./images/salad.jpg" alt="Burger" className="w-full h-60 rounded-t-xl object-cover" />
-                            <span className="absolute top-3 right-3 bg-yellow-500 text-white text-sm px-3 py-1 rounded-full"> $12.99 </span>
+                            <span className="absolute top-3 right-3 bg-yellow-500 text-black font-semibold text-sm px-3 py-1 rounded-full"> $49.99 </span>
                         </div>
                         <div className="p-5">
-                            <h3 className="text-lg font-semibold text-gray-800"> Signature Burger </h3>
-                            <p className="text-sm text-gray-500 mt-2"> Juicy beef patty with special sauce, lettuce, tomato, and cheese. </p>
-                            <div className="flex items-center mt-3 text-yellow-400"> ★ ★ ★ ★ ★ </div>
-                            <button className="mt-4 w-full bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-2 rounded-lg transition"> Add to Cart </button>
+                            <h3 className="text-lg font-semibold text-gray-800"> Salad </h3>
+                            <p className="text-sm text-gray-500 mt-2"> Crisp fresh vegetables tossed with flavorful dressing for a healthy bite. </p>
+                            
                         </div>
                     </div>
                     <div className="bg-[#F8F8F8] rounded-2xl shadow-lg overflow-hidden mb-12 hover:border-yellow-400 hover:border-2 hover:-translate-y-2 hover:shadow-2xl transition duration-300">
                         <div className="relative">
                             <img src="./images/icecream.jpg" alt="Burger" className="w-full h-60 rounded-t-xl object-cover" />
-                            <span className="absolute top-3 right-3 bg-yellow-500 text-white text-sm px-3 py-1 rounded-full"> $12.99 </span>
+                            <span className="absolute top-3 right-3 bg-yellow-500 text-black font-semibold text-sm px-3 py-1 rounded-full"> $29.99 </span>
                         </div>
                         <div className="p-5">
-                            <h3 className="text-lg font-semibold text-gray-800"> Signature Burger </h3>
-                            <p className="text-sm text-gray-500 mt-2"> Juicy beef patty with special sauce, lettuce, tomato, and cheese. </p>
-                            <div className="flex items-center mt-3 text-yellow-400"> ★ ★ ★ ★ ★  </div>
-                            <button className="mt-4 w-full bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-2 rounded-lg transition"> Add to Cart </button>
+                            <h3 className="text-lg font-semibold text-gray-800"> Ice-Cream </h3>
+                            <p className="text-sm text-gray-500 mt-2"> Creamy and delicious frozen dessert with rich flavor and smooth texture. </p>
+                            
                         </div>
                     </div>
                 </div>
@@ -81,8 +77,8 @@ function Home() {
                     <div className="lg:flex lg:justify-between lg:items-center">
                         <div >
                             <h1 className="text-5xl font-bold text-white pt-6">Our Story</h1>
-                            <p className="w-full lg:w-xl text-gray-400 pt-3">Our restaurant was born from a simple idea: to serve great food made with honesty, passion, and the finest ingredients. Every recipe is carefully crafted to balance authentic flavors with a modern touch, ensuring each dish delivers both comfort and quality. From the kitchen to the table, we focus on freshness, consistency, and taste that keeps our guests coming back.</p>
-                            <p className="w-full lg:w-xl text-gray-400 pt-1">More than just a place to eat, our restaurant is a space where people connect and create memories. Whether you're sharing a meal with family, meeting friends, or enjoying a quiet moment, we strive to offer warm hospitality and a welcoming atmosphere. Every visit is meant to feel special, with food that speaks for itself and service that makes you feel at home.</p>
+                            <p className="w-full lg:w-xl text-gray-400 pt-3 text-justify">Our restaurant was born from a simple idea: to serve great food made with honesty, passion, and the finest ingredients. Every recipe is carefully crafted to balance authentic flavors with a modern touch, ensuring each dish delivers both comfort and quality. From the kitchen to the table, we focus on freshness, consistency, and taste that keeps our guests coming back.</p>
+                            <p className="w-full lg:w-xl text-gray-400 pt-1 text-justify">More than just a place to eat, our restaurant is a space where people connect and create memories. Whether you're sharing a meal with family, meeting friends, or enjoying a quiet moment, we strive to offer warm hospitality and a welcoming atmosphere. Every visit is meant to feel special, with food that speaks for itself and service that makes you feel at home.</p>
                             <div className="flex gap-10 lg:gap-20 items-center py-10">
                                 <div className="flex flex-col items-center">
                                     <div className="h-16 w-16 rounded-full bg-white flex items-center justify-center hover:border-2 hover:border-yellow-400"><PersonIcon className="text-yellow-500" sx={{ fontSize: 30 }} /></div>

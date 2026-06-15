@@ -9,7 +9,7 @@ function About() {
                 </div>
                 <div className="absolute inset-0 flex flex-col justify-center px-6 md:px-12 lg:px-24 ">
                     <p className="text-white lg:text-center pt-20 md:pt-20 lg:pt-20">Discover the passion, flavors, and creativity that go into every plate.</p>
-                    <h1 className="text-white text-2xl md:text-6xl lg:text-6xl font-bold lg:text-center">Welcome to My Website</h1>
+                    <h1 className="text-white text-2xl md:text-6xl lg:text-6xl font-bold lg:text-center">Welcome to Our Resturent</h1>
                     <p className="text-white pt-1 lg:pt-4 lg:text-center mx-auto w-full lg:w-3xl">Behind every dish lies dedication, craftsmanship, and authentic taste.We carefully select fresh ingredients and blend them with culinary expertise. Enjoy a dining experience crafted with love and perfection.</p>
                     <Link to="/Contact" className="bg-yellow-400 hover:bg-yellow-600 rounded-2xl px-6 py-4 md:mx-auto lg:mx-auto flex items-center justify-center text-black font-semibold mt-1 md:mt-4 lg:mt-4 transition duration-300">Contact Us</Link>
                 </div>
