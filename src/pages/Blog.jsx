@@ -45,8 +45,8 @@ function Blog() {
             </div>
             <div className=" bg-slate-900 px-6 py-32">
                 <p className="text-center text-gray-400">Let's get started</p>
-                <h1 className="text-white text-center lg:text-3xl md:text-3xl text-2xl font-bold lg:py-3 py-2.5">Ready to enjoy delicious meals with your family?</h1>
-                <h4 className="text-gray-400 text-center pb-4 max-w-2xl mx-auto">Experience fresh flavors, quality ingredients, and unforgettable taste at Foodie Hub.</h4>
+                <h1 className="text-white text-center lg:text-5xl md:text-3xl text-3xl font-bold lg:py-3 py-2.5">Ready to enjoy delicious meals with your family?</h1>
+                <h4 className="text-gray-400 text-center pb-6 pt-2 max-w-2xl mx-auto">Experience fresh flavors, quality ingredients, and unforgettable taste at Foodie Hub.</h4>
                 <Link to="/Contact" className="bg-yellow-400 hover:bg-yellow-600 rounded-2xl text-center h-12 w-32 flex items-center justify-center text-black font-semibold mx-auto transition duration-300">Contact Us</Link>
             </div>
         </div>

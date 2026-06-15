@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Menu() {
   const [category, setCategory] = useState("All");
@@ -12,7 +12,7 @@ function Menu() {
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
-          <h1 className="text-white text-3xl md:text-5xl lg:text-5xl font-bold">
+          <h1 className="text-white lg:text-5xl md:text-3xl text-3xl font-bold">
             {" "}
             Our Delicious Menu{" "}
           </h1>
@@ -20,34 +20,34 @@ function Menu() {
       </div>
       <div className="bg-zinc-900">
         <div className="py-12 text-center">
-          <h2 className="text-3xl font-bold mb-10 text-white">
+          <h2 className="lg:text-5xl md:text-3xl text-3xl font-bold mb-10 text-white">
             Explore Our Categories
           </h2>
           <div className="flex justify-center gap-2 lg:gap-10 flex-wrap pb-6">
             <button
               onClick={() => setCategory("All")}
-              className="h-auto w-auto px-5 py-3 lg:px-10 lg:py-4 bg-gray-200 text-black hover:bg-orange-500 hover:text-white rounded-2xl"
+              className="h-auto w-auto px-5 py-3 lg:px-12 lg:py-4 bg-gray-200 text-black hover:bg-orange-500 hover:text-white rounded-2xl"
             >
               {" "}
               All{" "}
             </button>
             <button
               onClick={() => setCategory("Fast Food")}
-              className="h-auto w-auto px-3 py-3 lg:px-10 lg:py-4 bg-gray-200 rounded-2xl hover:bg-orange-500 hover:text-white transition"
+              className="h-auto w-auto px-3 py-3 lg:px-12 lg:py-4 bg-gray-200 rounded-2xl hover:bg-orange-500 hover:text-white transition"
             >
               {" "}
               Fast Food{" "}
             </button>
             <button
               onClick={() => setCategory("Desi")}
-              className="h-auto w-auto px-3 py-3 lg:px-10 lg:py-4 bg-gray-200 rounded-2xl hover:bg-orange-500 hover:text-white transition"
+              className="h-auto w-auto px-3 py-3 lg:px-12 lg:py-4 bg-gray-200 rounded-2xl hover:bg-orange-500 hover:text-white transition"
             >
               {" "}
               Desi{" "}
             </button>
             <button
               onClick={() => setCategory("Drinks")}
-              className="h-auto w-auto px-3 py-3 lg:px-10 lg:py-4 bg-gray-200 rounded-2xl hover:bg-orange-500 hover:text-white transition"
+              className="h-auto w-auto px-3 py-3 lg:px-12 lg:py-4 bg-gray-200 rounded-2xl hover:bg-orange-500 hover:text-white transition"
             >
               {" "}
               Drinks{" "}
@@ -277,7 +277,7 @@ function Menu() {
         </div>
       </div>
       <div className="bg-zinc-900">
-        <h2 className="text-3xl font-bold text-center mb-12 text-white">
+        <h2 className="lg:text-5xl md:text-3xl text-3xl pt-4 font-bold text-center mb-12 text-white">
           {" "}
           Today's Special Offers{" "}
         </h2>
@@ -286,7 +286,7 @@ function Menu() {
             <img
               src="/images/familyoffer1.jpg"
               alt="Deal 1"
-              className="h-64 w-full object-cover"
+              className="h-76 w-full object-cover"
             />
             <div className="p-6">
               <h3 className="text-2xl font-semibold mb-2"> Family Deal </h3>
@@ -305,7 +305,7 @@ function Menu() {
             <img
               src="/images/deal2.jpg"
               alt="Deal 2"
-              className="h-64 w-full object-cover"
+              className="h-76 w-full object-cover"
             />
             <div className="p-6">
               <h3 className="text-2xl font-semibold mb-2"> Lunch Combo </h3>
@@ -322,7 +322,7 @@ function Menu() {
         </div>
       </div>
       <div className="py-20 bg-zinc-900">
-        <h2 className="text-3xl font-bold text-center mb-12 text-white">
+        <h2 className="lg:text-5xl md:text-3xl text-3xl font-bold text-center mb-12 text-white">
           {" "}
           What Our Customers Say{" "}
         </h2>
@@ -352,19 +352,9 @@ function Menu() {
       </div>
       <div className=" bg-slate-900 px-6 py-32">
         <p className="text-center text-gray-400">Let's get started</p>
-        <h1 className="text-white text-center lg:text-3xl md:text-3xl text-2xl font-bold lg:py-3 py-2.5">
-          Ready to enjoy delicious meals with your family?
-        </h1>
-        <h4 className="text-gray-400 text-center pb-4 max-w-2xl mx-auto">
-          Experience fresh flavors, quality ingredients, and unforgettable taste
-          at Foodie Hub.
-        </h4>
-        <Link
-          to="/Contact"
-          className="bg-yellow-400 hover:bg-yellow-600 rounded-2xl text-center h-12 w-32 flex items-center justify-center text-black font-semibold mx-auto transition duration-300"
-        >
-          Contact Us
-        </Link>
+        <h1 className="text-white text-center lg:text-5xl md:text-3xl text-3xl font-bold lg:py-3 py-2.5">Ready to enjoy delicious meals with your family?</h1>
+        <h4 className="text-gray-400 text-center pb-6 pt-2 max-w-2xl mx-auto">Experience fresh flavors, quality ingredients, and unforgettable taste at Foodie Hub.</h4>
+        <Link to="/Contact" className="bg-yellow-400 hover:bg-yellow-600 rounded-2xl text-center h-12 w-32 flex items-center justify-center text-black font-semibold mx-auto transition duration-300">Contact Us</Link>
       </div>
     </div>
   );
