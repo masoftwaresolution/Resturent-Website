@@ -18,13 +18,7 @@ function Menu() {
             Our Delicious Menu{" "}
           </h1></Animation>
 
-        </div>
-        <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
-          <h1 className="text-white lg:text-5xl md:text-3xl text-3xl font-bold">
-            {" "}
-            Our Delicious Menu{" "}
-          </h1>
-        </div>
+        </div> 
       </div>
       <div className="bg-zinc-900">
         <div className="py-12 text-center">
@@ -76,7 +70,7 @@ function Menu() {
                     <p className="text-gray-400 my-2 text-justify">
                       {" "}
                       Crunchy Zinger chicken fillet with fresh lettuce and our
-                      special mayo sauce for the perfect bite.{" "}
+                      special mayo sauce.{" "}
                     </p>
                     <div className="flex justify-between items-center pt-2">
                       <span className="text-orange-500 font-bold text-lg">
@@ -262,7 +256,7 @@ function Menu() {
                     <h3 className="text-xl font-semibold">Milk Shak</h3>
                     <p className="text-gray-400 my-2 text-justify">
                       {" "}
-                      Indulge in our thick and flavorful milkshake made with premium ingredients and creamy goodness.{" "}
+                      Indulge in our thick and flavorful milkshake made with premium ingredients.{" "}
                     </p>
                     <div className="flex justify-between items-center pt-2">
                       <span className="text-orange-500 font-bold text-lg">
