@@ -1,16 +1,24 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Animation from "../components/Animation";
 
 function Menu() {
   const [category, setCategory] = useState("All");
   return (
     <div>
-      <div className="relative h-[50vh]">
+      <div className="relative h-[90vh]">
         <img
           src="/images/banner.jpg"
           alt="Menu Banner"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
+          <Animation><h1 className="text-white lg:text-5xl md:text-3xl text-3xl font-bold">
+            {" "}
+            Our Delicious Menu{" "}
+          </h1></Animation>
+
+        </div>
         <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
           <h1 className="text-white lg:text-5xl md:text-3xl text-3xl font-bold">
             {" "}
@@ -20,42 +28,43 @@ function Menu() {
       </div>
       <div className="bg-zinc-900">
         <div className="py-12 text-center">
-          <h2 className="lg:text-5xl md:text-3xl text-3xl font-bold mb-10 text-white">
+          <Animation><h2 className="lg:text-5xl md:text-3xl text-3xl font-bold mb-10 text-white">
             Explore Our Categories
-          </h2>
+          </h2></Animation>
           <div className="flex justify-center gap-2 lg:gap-10 flex-wrap pb-6">
-            <button
+            <Animation><button
               onClick={() => setCategory("All")}
               className="h-auto w-auto px-5 py-3 lg:px-12 lg:py-4 bg-gray-200 text-black hover:bg-orange-500 hover:text-white rounded-2xl"
             >
               {" "}
               All{" "}
-            </button>
-            <button
+            </button></Animation>
+            <Animation><button
               onClick={() => setCategory("Fast Food")}
               className="h-auto w-auto px-3 py-3 lg:px-12 lg:py-4 bg-gray-200 rounded-2xl hover:bg-orange-500 hover:text-white transition"
             >
               {" "}
               Fast Food{" "}
-            </button>
-            <button
+            </button></Animation>
+            <Animation><button
               onClick={() => setCategory("Desi")}
               className="h-auto w-auto px-3 py-3 lg:px-12 lg:py-4 bg-gray-200 rounded-2xl hover:bg-orange-500 hover:text-white transition"
             >
               {" "}
               Desi{" "}
-            </button>
-            <button
+            </button></Animation>
+            <Animation><button
               onClick={() => setCategory("Drinks")}
               className="h-auto w-auto px-3 py-3 lg:px-12 lg:py-4 bg-gray-200 rounded-2xl hover:bg-orange-500 hover:text-white transition"
             >
               {" "}
               Drinks{" "}
-            </button>
+            </button></Animation>
+
           </div>
           <div className="px-6 md:px-12 lg:px-24">
             <div className="w-full mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-6">
-              {(category === "All" || category === "Fast Food") && (
+              <Animation>{(category === "All" || category === "Fast Food") && (
                 <div className="shadow-lg rounded-2xl overflow-hidden">
                   <img
                     src="/images/burger.jpg"
@@ -67,7 +76,7 @@ function Menu() {
                     <p className="text-gray-400 my-2 text-justify">
                       {" "}
                       Crunchy Zinger chicken fillet with fresh lettuce and our
-                      special mayo sauce.{" "}
+                      special mayo sauce for the perfect bite.{" "}
                     </p>
                     <div className="flex justify-between items-center pt-2">
                       <span className="text-orange-500 font-bold text-lg">
@@ -81,8 +90,8 @@ function Menu() {
                     </div>
                   </div>
                 </div>
-              )}
-              {(category === "All" || category === "Fast Food") && (
+              )}</Animation>
+              <Animation>{(category === "All" || category === "Fast Food") && (
                 <div className="shadow-lg rounded-2xl overflow-hidden">
                   <img
                     src="/images/pizza.jpg"
@@ -108,9 +117,8 @@ function Menu() {
                     </div>
                   </div>
                 </div>
-              )}
-
-              {(category === "All" || category === "Fast Food") && (
+              )}</Animation>
+              <Animation>{(category === "All" || category === "Fast Food") && (
                 <div className="shadow-lg rounded-2xl overflow-hidden">
                   <img
                     src="/images/sandwitch.jpg"
@@ -136,8 +144,8 @@ function Menu() {
                     </div>
                   </div>
                 </div>
-              )}
-              {(category === "All" || category === "Desi") && (
+              )}</Animation>
+              <Animation>{(category === "All" || category === "Desi") && (
                 <div className="shadow-lg rounded-2xl overflow-hidden">
                   <img
                     src="/images/muttonkarahi.webp"
@@ -163,8 +171,8 @@ function Menu() {
                     </div>
                   </div>
                 </div>
-              )}
-              {(category === "All" || category === "Desi") && (
+              )}</Animation>
+              <Animation>{(category === "All" || category === "Desi") && (
                 <div className="shadow-lg rounded-2xl overflow-hidden">
                   <img
                     src="/images/biryani.jpg"
@@ -175,8 +183,7 @@ function Menu() {
                     <h3 className="text-xl font-semibold">Chicken Biryani</h3>
                     <p className="text-gray-400 my-2 text-justify">
                       {" "}
-                      Classic chicken biryani prepared with chicken,
-                      rice, and rich traditional flavors.{" "}
+                      Classic chicken biryani prepared with chicken, rice, and rich traditional aromatic flavors.{" "}
                     </p>
                     <div className="flex justify-between items-center pt-2">
                       <span className="text-orange-500 font-bold text-lg">
@@ -190,8 +197,8 @@ function Menu() {
                     </div>
                   </div>
                 </div>
-              )}
-              {(category === "All" || category === "Desi") && (
+              )}</Animation>
+              <Animation>{(category === "All" || category === "Desi") && (
                 <div className="shadow-lg rounded-2xl overflow-hidden">
                   <img
                     src="/images/haleem.jpg"
@@ -217,8 +224,8 @@ function Menu() {
                     </div>
                   </div>
                 </div>
-              )}
-              {(category === "All" || category === "Drinks") && (
+              )}</Animation>
+              <Animation>{(category === "All" || category === "Drinks") && (
                 <div className="shadow-lg rounded-2xl overflow-hidden">
                   <img
                     src="/images/juice.jpg"
@@ -229,8 +236,7 @@ function Menu() {
                     <h3 className="text-xl font-semibold">Lemon Drink</h3>
                     <p className="text-gray-400 my-2 text-justify">
                       {" "}
-                      A chilled and refreshing lemon drink perfect for any time
-                      of the day.{" "}
+                      A chilled and refreshing lemon drink perfect for any time of the day with zesty freshness.{" "}
                     </p>
                     <div className="flex justify-between items-center pt-2">
                       <span className="text-orange-500 font-bold text-lg">
@@ -244,8 +250,8 @@ function Menu() {
                     </div>
                   </div>
                 </div>
-              )}
-              {(category === "All" || category === "Drinks") && (
+              )}</Animation>
+              <Animation>{(category === "All" || category === "Drinks") && (
                 <div className="shadow-lg rounded-2xl overflow-hidden">
                   <img
                     src="/images/milkshak.jpg"
@@ -256,8 +262,7 @@ function Menu() {
                     <h3 className="text-xl font-semibold">Milk Shak</h3>
                     <p className="text-gray-400 my-2 text-justify">
                       {" "}
-                      Indulge in our thick and flavorful milkshake made with
-                      premium ingredients.{" "}
+                      Indulge in our thick and flavorful milkshake made with premium ingredients and creamy goodness.{" "}
                     </p>
                     <div className="flex justify-between items-center pt-2">
                       <span className="text-orange-500 font-bold text-lg">
@@ -271,18 +276,18 @@ function Menu() {
                     </div>
                   </div>
                 </div>
-              )}
+              )}</Animation>
             </div>
           </div>
         </div>
       </div>
       <div className="bg-zinc-900">
-        <h2 className="lg:text-5xl md:text-3xl text-3xl pt-4 font-bold text-center mb-12 text-white">
+        <Animation><h2 className="lg:text-5xl md:text-3xl text-3xl pt-4 font-bold text-center mb-12 text-white">
           {" "}
           Today's Special Offers{" "}
-        </h2>
+        </h2></Animation>
         <div className="w-auto mx-auto grid md:grid-cols-2 gap-10 px-6 md:px-12 lg:px-24">
-          <div className="bg-white shadow-lg rounded-2xl overflow-hidden">
+          <Animation><div className="bg-white shadow-lg rounded-2xl overflow-hidden">
             <img
               src="/images/familyoffer1.jpg"
               alt="Deal 1"
@@ -300,8 +305,8 @@ function Menu() {
                 Rs. 2499{" "}
               </span>
             </div>
-          </div>
-          <div className="bg-white shadow-lg rounded-2xl overflow-hidden">
+          </div></Animation>
+          <Animation><div className="bg-white shadow-lg rounded-2xl overflow-hidden">
             <img
               src="/images/deal2.jpg"
               alt="Deal 2"
@@ -318,43 +323,44 @@ function Menu() {
                 Rs. 899{" "}
               </span>
             </div>
-          </div>
+          </div></Animation>
+
         </div>
       </div>
       <div className="py-20 bg-zinc-900">
-        <h2 className="lg:text-5xl md:text-3xl text-3xl font-bold text-center mb-12 text-white">
+        <Animation><h2 className="lg:text-5xl md:text-3xl text-3xl font-bold text-center mb-12 text-white">
           {" "}
           What Our Customers Say{" "}
-        </h2>
+        </h2></Animation>
         <div className="w-auto mx-auto grid md:grid-cols-3 gap-4 px-6 md:px-12 lg:px-24">
-          <div className="bg-white shadow-lg p-6 rounded-2xl text-center">
+          <Animation><div className="bg-white shadow-lg p-6 rounded-2xl text-center">
             <p className="text-gray-600 mb-4">
               {" "}
               "Amazing taste and quick service. Highly recommended!"{" "}
             </p>
             <h4 className="font-semibold">Ali Khan</h4>
-          </div>
-          <div className="bg-white shadow-lg p-6 rounded-2xl text-center">
+          </div></Animation>
+          <Animation><div className="bg-white shadow-lg p-6 rounded-2xl text-center">
             <p className="text-gray-600 mb-4">
               {" "}
               "The ambience and food quality both are excellent."{" "}
             </p>
             <h4 className="font-semibold">Sara Ahmed</h4>
-          </div>
-          <div className="bg-white shadow-lg p-6 rounded-2xl text-center">
+          </div></Animation>
+          <Animation><div className="bg-white shadow-lg p-6 rounded-2xl text-center">
             <p className="text-gray-600 mb-4">
               {" "}
               "Best biryani in town. Will definitely visit again."{" "}
             </p>
             <h4 className="font-semibold">Usman Raza</h4>
-          </div>
+          </div></Animation>
         </div>
       </div>
       <div className=" bg-slate-900 px-6 py-32">
-        <p className="text-center text-gray-400">Let's get started</p>
-        <h1 className="text-white text-center lg:text-5xl md:text-3xl text-3xl font-bold lg:py-3 py-2.5">Ready to enjoy delicious meals with your family?</h1>
-        <h4 className="text-gray-400 text-center pb-6 pt-2 max-w-2xl mx-auto">Experience fresh flavors, quality ingredients, and unforgettable taste at Foodie Hub.</h4>
-        <Link to="/Contact" className="bg-yellow-400 hover:bg-yellow-600 rounded-2xl text-center h-12 w-32 flex items-center justify-center text-black font-semibold mx-auto transition duration-300">Contact Us</Link>
+        <Animation><p className="text-center text-gray-400">Let's get started</p></Animation>
+        <Animation><h1 className="text-white text-center lg:text-5xl md:text-3xl text-3xl font-bold lg:py-3 py-2.5">Ready to enjoy delicious meals with your family?</h1></Animation>
+        <Animation><h4 className="text-gray-400 text-center pb-6 pt-2 max-w-2xl mx-auto">Experience fresh flavors, quality ingredients, and unforgettable taste at Foodie Hub.</h4></Animation>
+        <Animation><Link to="/Contact" className="bg-yellow-400 hover:bg-yellow-600 rounded-2xl text-center h-12 w-32 flex items-center justify-center text-black font-semibold mx-auto transition duration-300">Contact Us</Link></Animation>
       </div>
     </div>
   );

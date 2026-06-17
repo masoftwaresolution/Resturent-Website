@@ -29,7 +29,7 @@ function Footer() {
             </div>
             <div className="flex items-center gap-3">
               <FaPhoneAlt className="text-yellow-500" />
-              <p>+92 300 1234567</p>
+              <p>+92 308 7825788</p>
             </div>
             <div className="flex items-center gap-3">
               <FaEnvelope className="text-yellow-500" />
